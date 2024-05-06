@@ -1,0 +1,82 @@
+.container{
+    margin-bottom: 50px;
+}
+.navbar-toggler{
+    background-color: #3F07F8;
+}
+.navbar-toggler span{
+    color: #FEEAE9;
+}
+form.d-flex{
+    position: relative;
+    width: 37%;
+}
+.orange-bg{
+    background: #FEEAE9;
+    border-radius: 10PX;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.price{
+    color: #ff136f;
+}
+.buy-now-button{
+    color: #fff;
+    cursor: pointer;
+    padding: 8px 25px;
+    border-radius: 8px;
+    background-image: linear-gradient(to bottom,#FF589B 0%,#FF136F 100%);
+}
+.cat-1,.cat-2,.cat-3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cat-1{
+    background-image: linear-gradient(to right,#FF9C35 0%,#FFD019 100%);
+}
+.cat-2{
+    background-image: linear-gradient(to right,#FF589B 0%,#FF136F 100%);
+}
+.cat-3{
+    background-image: linear-gradient(to right,#4289FF 0%,#3F07F8 100%);
+}
+.categories h1{
+    color: #fff;
+}
+.categories img{
+    width: 110px;
+}
+.cat-tittle a{
+    text-decoration: none;
+    color: #FF9D00;
+    font-size: 22px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+}
+#contact{
+    width: 100%;
+    height: 400px;
+}
+#contact .buy-now-button{
+    border-radius: 0;
+}
+
+.contact-content{
+    width: 45%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+footer{
+    text-align: center;
+}
+.fortest{
+    height: 100vh;
+    background:linear-gradient(rgb(0, 0, 0,0.85),rgb(0, 0, 0,0.85)), url(image6.jpg) no-repeat center / cover;
+}
